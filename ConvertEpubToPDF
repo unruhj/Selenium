@@ -1,0 +1,87 @@
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
+
+
+public class OnlineConvert {
+
+	
+	public static void main(String[] args) throws IOException, InterruptedException, AWTException {
+		 System.setProperty("webdriver.gecko.driver", "D:\\Selenium\\Drivers\\geckodriver.exe");
+		 WebDriver driver;
+		
+		 FirefoxProfile fprofile = new FirefoxProfile();
+     
+		  //Set Location to store files after downloading.
+		  fprofile.setPreference("browser.download.dir", "C:\\users\\john\\desktop");
+		  fprofile.setPreference("browser.download.folderList", 2);
+		  //Set Preference to not show file download confirmation dialogue using MIME types Of different file extension types.
+		  fprofile.setPreference("browser.helperApps.neverAsk.saveToDisk", 
+		    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;"//MIME types Of MS Excel File.
+		    + "application/pdf;" //MIME types Of PDF File.
+		    + "application/vnd.openxmlformats-officedocument.wordprocessingml.document;" //MIME types Of MS doc File.
+		    + "text/plain;" //MIME types Of text File.
+		    + "text/csv"); //MIME types Of CSV File.
+		  fprofile.setPreference( "browser.download.manager.showWhenStarting", false );
+		  fprofile.setPreference( "pdfjs.disabled", true );
+	      driver = new FirefoxDriver(fprofile);  
+		 
+	     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	     driver.manage().deleteAllCookies();
+		 driver.manage().window().maximize();
+		 
+		driver.get("http://www.online-convert.com/");
+				
+		WebElement address=driver.findElement(By.id("box_selection_document"));
+		Select b=new Select(address);
+		b.selectByIndex(6);
+		Thread.sleep(2000);
+		driver.findElement(By.id("file")).click();
+		System.out.println("Upload Image");
+				
+		StringSelection sel = new StringSelection("C:\\Users\\john\\Desktop\\test.epub");//The file location
+		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(sel,null); // Copy to clipboard
+		  	
+		Robot robot = new Robot();  // Create object of Robot class
+		Thread.sleep(1000);
+		      
+		robot.keyPress(KeyEvent.VK_CONTROL);  // Press CTRL+V
+	    robot.keyPress(KeyEvent.VK_V);
+	    Thread.sleep(1500);
+	        
+	    robot.keyPress(KeyEvent.VK_ENTER); //   Press Enter 
+	    robot.keyRelease(KeyEvent.VK_ENTER);
+	    
+	    driver.findElement(By.id("submit_button")).click();
+	    System.out.println("File submitted and is processing");
+	   	    
+	    Thread.sleep(50000); 
+	    
+	    driver.get("http://www.online-convert.com?logout=1");
+	    Thread.sleep(5000); 
+		  driver.quit();}
+
+	
+	}
+		  
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+		
