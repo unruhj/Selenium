@@ -1,0 +1,49 @@
+2017-01-14 11:17:24,443 - pageclasses.SearchPage -INFO - Navigate to flights tab
+2017-01-14 11:17:24,500 - pageclasses.SearchPage -INFO - Origin text box element found
+2017-01-14 11:17:26,960 - pageclasses.SearchPage -INFO - Enter origin city as New York
+2017-01-14 11:17:27,025 - pageclasses.SearchPage -INFO - Destination text box element found
+2017-01-14 11:17:29,573 - pageclasses.SearchPage -INFO - Enter destination city as Chicago
+2017-01-14 11:17:29,875 - pageclasses.SearchPage -INFO - Enter departure date as 5/25/2017
+2017-01-14 11:17:30,401 - pageclasses.SearchPage -INFO - Enter return date as 5/31/2017
+2017-01-14 11:24:22,835 - pageclasses.SearchPage -INFO - Navigate to flights tab
+2017-01-14 11:24:22,945 - pageclasses.SearchPage -INFO - Origin text box element found
+2017-01-14 11:24:25,432 - pageclasses.SearchPage -INFO - Enter origin city as New York
+2017-01-14 11:24:25,483 - pageclasses.SearchPage -INFO - Destination text box element found
+2017-01-14 11:24:27,841 - pageclasses.SearchPage -INFO - Enter destination city as Chicago
+2017-01-14 11:24:28,088 - pageclasses.SearchPage -INFO - Enter departure date as 5/25/2017
+2017-01-14 11:24:28,612 - pageclasses.SearchPage -INFO - Enter return date as 5/31/2017
+2017-01-14 12:14:28,208 - pageclasses.SearchPage -INFO - Navigate to flights tab
+2017-01-14 12:14:28,676 - pageclasses.SearchPage -INFO - Origin text box element found
+2017-01-14 12:14:31,643 - pageclasses.SearchPage -INFO - Enter origin city as New York
+2017-01-14 12:14:31,721 - pageclasses.SearchPage -INFO - Destination text box element found
+2017-01-14 12:14:34,274 - pageclasses.SearchPage -INFO - Enter destination city as Chicago
+2017-01-14 12:14:34,835 - pageclasses.SearchPage -INFO - Enter departure date as 5/25/2017
+2017-01-14 12:14:35,569 - pageclasses.SearchPage -INFO - Enter return date as 5/31/2017
+2017-01-14 12:18:06,789 - pageclasses.SearchPage -INFO - Navigate to flights tab
+2017-01-14 12:18:06,916 - pageclasses.SearchPage -INFO - Origin text box element found
+2017-01-14 12:18:09,513 - pageclasses.SearchPage -INFO - Enter origin city as New York
+2017-01-14 12:18:09,609 - pageclasses.SearchPage -INFO - Destination text box element found
+2017-01-14 12:18:12,092 - pageclasses.SearchPage -INFO - Enter destination city as Chicago
+2017-01-14 12:18:12,460 - pageclasses.SearchPage -INFO - Enter departure date as 5/25/2017
+2017-01-14 12:18:13,198 - pageclasses.SearchPage -INFO - Enter return date as 5/31/2017
+2017-01-14 12:31:06,889 - pageclasses.SearchPage -INFO - Navigate to flights tab
+2017-01-14 12:31:07,027 - pageclasses.SearchPage -INFO - Origin text box element found
+2017-01-14 12:31:09,781 - pageclasses.SearchPage -INFO - Enter origin city as New York
+2017-01-14 12:31:09,842 - pageclasses.SearchPage -INFO - Destination text box element found
+2017-01-14 12:31:12,208 - pageclasses.SearchPage -INFO - Enter destination city as Chicago
+2017-01-14 12:31:12,450 - pageclasses.SearchPage -INFO - Enter departure date as 5/25/2017
+2017-01-14 12:31:13,003 - pageclasses.SearchPage -INFO - Enter return date as 5/31/2017
+2017-01-15 10:31:32,869 - pageclasses.SearchPage -INFO - Navigate to flights tab
+2017-01-15 10:31:33,015 - pageclasses.SearchPage -INFO - Origin text box element found
+2017-01-15 10:31:35,646 - pageclasses.SearchPage -INFO - Enter origin city as New York
+2017-01-15 10:31:35,706 - pageclasses.SearchPage -INFO - Destination text box element found
+2017-01-15 10:31:38,171 - pageclasses.SearchPage -INFO - Enter destination city as Chicago
+2017-01-15 10:31:38,455 - pageclasses.SearchPage -INFO - Enter departure date as 5/25/2017
+2017-01-15 10:31:39,050 - pageclasses.SearchPage -INFO - Enter return date as 5/31/2017
+2017-01-15 13:23:14,314 - pageclasses.SearchPage -INFO - Navigate to flights tab
+2017-01-15 13:23:14,503 - pageclasses.SearchPage -INFO - Origin text box element found
+2017-01-15 13:23:17,359 - pageclasses.SearchPage -INFO - Enter origin city as New York
+2017-01-15 13:23:17,466 - pageclasses.SearchPage -INFO - Destination text box element found
+2017-01-15 13:23:19,916 - pageclasses.SearchPage -INFO - Enter destination city as Chicago
+2017-01-15 13:23:20,230 - pageclasses.SearchPage -INFO - Enter departure date as 5/25/2017
+2017-01-15 13:23:21,036 - pageclasses.SearchPage -INFO - Enter return date as 5/31/2017
